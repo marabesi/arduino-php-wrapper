@@ -1,0 +1,24 @@
+{
+    "name": "marabesi/arduino-php-wrapper",
+    "authors": [
+        {
+            "name": "Marabesi",
+            "email": "matheus.marabesi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Arduino\\": "src/"
+        }
+    },
+    "require": {},
+    "autoload-dev": {
+        "classmap": [
+            "test/ArduinoTestCase.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "mikey179/vfsStream": "~1"
+    }
+}
