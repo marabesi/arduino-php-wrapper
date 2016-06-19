@@ -8,6 +8,8 @@ The **arduino://** wrapper is a easy and straightforward way to write and read d
 to write date on Arduino serial just use the regular I/O functions in PHP such as **fwrite** or file_put_contents**
 
 ``` php
+\Arduino\Wrapper::register();
+
 //reads data from Arduino
 $resource = fopen('arduino://ttyUSB0', 'r+');
 print fread($resource, 1024); 
@@ -21,13 +23,17 @@ print file_get_contents('arduinno://ttyUSB0');
 To write data in the Arduino serial is as easy as it could be
 
 ``` php
+\Arduino\Wrapper::register();
+
 //writes data to Arduino
 $resource = fopen('arduino://ttyUSB0', 'r+');
 print fwrite('hello Arduino'); 
 ```
 
 ``` php
-print file_put_contents('hello Arduino');
+\Arduino\Wrapper::register();
+
+print file_put_contents('arduino://hello Arduino');
 ```
 
 ## Improvements

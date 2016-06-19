@@ -17,9 +17,9 @@ class Wrapper
     {
         $realPath = str_replace('arduino://', '', $path);
 
-        if (!file_exists($realPath)) {
+        /*if (!file_exists($realPath)) {
             throw new \InvalidArgumentException('Could not find Arduino connection in ' . $realPath);
-        }
+        }*/
 
         $this->path = fopen($realPath, 'r+');
 
