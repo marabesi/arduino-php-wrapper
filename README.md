@@ -17,7 +17,7 @@ print fread($resource, 1024);
 
 Or if you prefer, you can use **file_get_contents** and get the same result
 ``` php
-print file_get_contents('arduinno://ttyUSB0');
+print file_get_contents('arduino://ttyUSB0');
 ```
 
 To write data in the Arduino serial is as easy as it could be
@@ -34,6 +34,15 @@ print fwrite('hello Arduino');
 \Arduino\Wrapper::register();
 
 print file_put_contents('arduino://hello Arduino');
+```
+
+## OOP
+
+You can use in your project in a OOP style
+
+``` php
+$writer = new Arduino\Writer(new Arduino\Wrapper());
+$bytes = $writer->out('ttyUSB0', 'from oop');
 ```
 
 ## Improvements
