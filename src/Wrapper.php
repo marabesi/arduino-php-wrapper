@@ -33,6 +33,7 @@ class Wrapper
 
     public function stream_write($data)
     {
+        sleep(2);
         return fwrite($this->path, $data);
     }
 
