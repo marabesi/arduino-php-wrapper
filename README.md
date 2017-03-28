@@ -40,9 +40,21 @@ print file_put_contents('arduino://hello Arduino');
 
 You can use in your project in a OOP style
 
+### Sending data
+
 ``` php
 $writer = new Arduino\Writer(new Arduino\Wrapper());
 $bytes = $writer->out('ttyUSB0', 'from oop');
+```
+### Reading data
+
+``` php
+$arduino = new \Arduino\Wrapper();
+
+$writer = new \Arduino\Reader($arduino);
+while (true) {
+    print $writer->from('/dev/cu.usbmodem1411');
+}
 ```
 
 ## Improvements
