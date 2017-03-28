@@ -15,7 +15,7 @@ class Writer
     {
         $this->wrappers->stream_open($to, 'r+');
         $bytes = $this->wrappers->stream_write($data);
-
+        
         return ($bytes != 0);
     }
 }

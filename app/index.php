@@ -136,6 +136,7 @@
                     <select id="device" name="device" class="field select medium">
                         <option value="/dev/ttyACM0">ttyACM0</option>
                         <option value="/dev/ttyUSB0">ttyUSB0</option>
+                        <option value="/dev/cu.usbmodem1411">cu.usbmodem1411</option>
                     </select>
                 </div>
             </div>

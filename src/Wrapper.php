@@ -28,7 +28,8 @@ class Wrapper
 
     public function stream_read($count)
     {
-        return fread($this->path, $count);
+        sleep(2);
+        return fgets($this->path, $count);
     }
 
     public function stream_write($data)
