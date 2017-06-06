@@ -5,7 +5,7 @@ The **arduino://** wrapper is a easy and straightforward way to write and read d
 
 ## Usage
 
-to write date on Arduino serial just use the regular I/O functions in PHP such as **fwrite** or file_put_contents**
+to write date on Arduino serial just use the regular I/O functions in PHP such as **fwrite** or **file_put_contents**
 
 ``` php
 \Arduino\Wrapper::register();
