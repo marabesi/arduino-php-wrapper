@@ -1,6 +1,7 @@
 # arduino-php-wrapper
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d57a79cbf3245e0af61e9123fda26eb)](https://www.codacy.com/app/matheus-marabesi/arduino-php-wrapper?utm_source=github.com&utm_medium=referral&utm_content=marabesi/arduino-php-wrapper&utm_campaign=badger)
+[![Build Status](https://travis-ci.org/marabesi/arduino-php-wrapper.svg?branch=master)](https://travis-ci.org/marabesi/arduino-php-wrapper)
 
 If you are wondering how to control the Arduino serial port via PHP, here is the solution. 
 The **arduino://** wrapper is a easy and straightforward way to write and read data from Arduino.
