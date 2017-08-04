@@ -1,0 +1,15 @@
+language: php
+
+dist: trusty
+
+php:
+  - 5.6
+  - hhvm
+  - 7.0
+
+before_script:
+  - composer install
+
+script:
+  - mkdir -p build/logs 
+  - ./vendor/bin/phpunit --coverage-clover build/logs/clover.xml test/
