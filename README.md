@@ -2,6 +2,9 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d57a79cbf3245e0af61e9123fda26eb)](https://www.codacy.com/app/matheus-marabesi/arduino-php-wrapper?utm_source=github.com&utm_medium=referral&utm_content=marabesi/arduino-php-wrapper&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/marabesi/arduino-php-wrapper.svg?branch=master)](https://travis-ci.org/marabesi/arduino-php-wrapper)
+[![Latest Stable Version](https://poser.pugx.org/marabesi/arduino-php-wrapper/v/stable)](https://packagist.org/packages/marabesi/arduino-php-wrapper)
+[![Total Downloads](https://poser.pugx.org/marabesi/arduino-php-wrapper/downloads)](https://packagist.org/packages/marabesi/arduino-php-wrapper)
+[![composer.lock](https://poser.pugx.org/marabesi/arduino-php-wrapper/composerlock)](https://packagist.org/packages/marabesi/arduino-php-wrapper)
 
 If you are wondering how to control the Arduino serial port via PHP, here is the solution. 
 The **arduino://** wrapper is a easy and straightforward way to write and read data from Arduino.
@@ -15,7 +18,7 @@ to write date on Arduino serial just use the regular I/O functions in PHP such a
 
 //reads data from Arduino
 $resource = fopen('arduino://ttyUSB0', 'r+');
-print fread($resource, 1024); 
+print fread($resource, 1024);
 ```
 
 Or if you prefer, you can use **file_get_contents** and get the same result
@@ -30,7 +33,7 @@ To write data in the Arduino serial is as easy as it could be
 
 //writes data to Arduino
 $resource = fopen('arduino://ttyUSB0', 'r+');
-print fwrite('hello Arduino'); 
+print fwrite('hello Arduino');
 ```
 
 ``` php
