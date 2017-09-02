@@ -9,6 +9,12 @@
 If you are wondering how to control the Arduino serial port via PHP, here is the solution. 
 The **arduino://** wrapper is a easy and straightforward way to write and read data from Arduino.
 
+## Install
+
+```
+composer require marabesi/arduino-php-wrapper
+```
+
 ## Usage
 
 to write date on Arduino serial just use the regular I/O functions in PHP such as **fwrite** or **file_put_contents**
