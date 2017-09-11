@@ -71,4 +71,6 @@ while (true) {
 
 ## Improvements
 
-As you can see is really simple and we can improve it much more as the sensors are identified
+As you can see is really simple and we can improve it much more as the sensors are identified.
+
+- Prevent arduino from reload everytime a request is made by PHP
