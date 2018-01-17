@@ -1,3 +1,4 @@
 #!/bin/bash
 
-composer require "marabesi/arduino-php-wrapper:1.0.0"
+mkdir install
+composer require -d=install/ marabesi/arduino-php-wrapper
