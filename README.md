@@ -17,7 +17,7 @@ composer require marabesi/arduino-php-wrapper
 
 ## Usage
 
-to write date on Arduino serial just use the regular I/O functions in PHP such as **fwrite** or **file_put_contents**
+To read data from Arduino serial just use the regular I/O functions in PHP such as **fread** or **file_get_contents**
 
 ``` php
 \Arduino\Wrapper::register();
@@ -28,6 +28,7 @@ print fread($resource, 1024);
 ```
 
 Or if you prefer, you can use **file_get_contents** and get the same result
+
 ``` php
 print file_get_contents('arduino://ttyUSB0');
 ```
@@ -58,6 +59,7 @@ You can use in your project in a OOP style
 $writer = new Arduino\Writer(new Arduino\Wrapper());
 $bytes = $writer->out('ttyUSB0', 'from oop');
 ```
+
 ### Reading data
 
 ``` php
