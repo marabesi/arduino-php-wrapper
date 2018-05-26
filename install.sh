@@ -1,4 +1,4 @@
 #!/bin/bash
 
 mkdir install
-composer require -d=install/ marabesi/arduino-php-wrapper
+cd install && composer require marabesi/arduino-php-wrapper 
