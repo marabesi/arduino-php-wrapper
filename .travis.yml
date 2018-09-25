@@ -8,12 +8,13 @@ php:
   - hhvm
   - 7.0
   - 7.1
+  - 7.2
 
 before_script:
   - composer install
   - chmod 777 install.sh
 
 script:
-  - mkdir -p build/logs 
+  - mkdir -p build/logs
   - ./vendor/bin/phpunit --coverage-clover build/logs/clover.xml test/
   - sh install.sh
