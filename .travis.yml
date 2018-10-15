@@ -2,6 +2,14 @@ language: php
 
 dist: trusty
 
+os:
+  - linux
+  - windows
+
+matrix:
+  allow_failures:
+    - os: windows
+
 php:
   - 5.5
   - 5.6
