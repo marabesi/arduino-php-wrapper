@@ -79,10 +79,10 @@ As you can see is really simple and we can improve it much more as the sensors a
 
 ## Slides (talks based on this lib)
 
-[![SlideShare](https://img.shields.io/badge/slides-SlideShare-brightgreen.svg)](https://www.slideshare.net/marabesi/introduction-to-iot-and-php-nerdzao-day-1) Introduction to IoT and PHP - Nerdzão day #1
+[![SlideShare](https://img.shields.io/badge/slides-SlideShare-brightgreen.svg)](https://www.slideshare.net/marabesi/introduction-to-iot-and-php-nerdzao-day-1) [Introduction to IoT and PHP - Nerdzão day #1](https://www.slideshare.net/marabesi/introduction-to-iot-and-php-nerdzao-day-1)
 
 [![SlideShare](https://img.shields.io/badge/slides-SlideShare-brightgreen.svg)](
-https://www.slideshare.net/marabesi/iot-powered-by-php-and-streams-phpexperience2017) IoT powered by PHP and streams - PHPExperience2017
+https://www.slideshare.net/marabesi/iot-powered-by-php-and-streams-phpexperience2017) [IoT powered by PHP and streams - PHPExperience2017](https://www.slideshare.net/marabesi/iot-powered-by-php-and-streams-phpexperience2017)
 
 [![SlideShare](https://img.shields.io/badge/slides-SlideShare-brightgreen.svg)](
-https://www.slideshare.net/marabesi/controll-your-house-with-the-elephpant-phpconf2016) Controll your house with the elePHPant - PHPConf2016
+https://www.slideshare.net/marabesi/controll-your-house-with-the-elephpant-phpconf2016) [Control your house with the elePHPant - PHPConf2016](https://www.slideshare.net/marabesi/controll-your-house-with-the-elephpant-phpconf2016)
